@@ -18,12 +18,15 @@ chsh -s $(which zsh)
 brew install ack
 brew install htop
 
+brew install findutils
+
 brew install git
 brew install python
 
 brew install macvim
 brew linkapps macvim
 ```
+
 ## Casks
 
 ```
@@ -32,6 +35,15 @@ brew cask install alfred iterm2
 brew cask install spectacle flux
 brew cask install dropbox keepassx
 brew cask install istat-menus
+```
+
+### Development
+
+```
+brew cask install java
+brew cask install vagrant
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
 ```
 
 ### entertaiment
