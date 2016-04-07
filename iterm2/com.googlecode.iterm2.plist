@@ -733,9 +733,9 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>1778 277 924 485 1440 -540 2560 1417 </string>
+	<string>1778 817 924 485 1440 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3102 -518 831 1395 1440 -540 2560 1417 </string>
+	<string>2718 -540 1278 1417 1440 -540 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -956,7 +956,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Disable Printing</key>
@@ -1516,7 +1516,7 @@
 	<key>PrefsCustomFolder</key>
 	<string>~/workspace/osx-bootstrap/iterm2</string>
 	<key>PromptOnQuit</key>
-	<true/>
+	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<false/>
 	<key>RightCommand</key>
