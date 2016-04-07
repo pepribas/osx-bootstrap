@@ -32,12 +32,12 @@ echo "Disabling natural scrolling"
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 echo ""
-echo "Setting a blazingly fast keyboard repeat rate"
-defaults write NSGlobalDomain KeyRepeat -int 0.02
+echo "Setting a fast keyboard repeat rate"
+defaults write NSGlobalDomain KeyRepeat -int 2
 
 echo ""
 echo "Set a shorter Delay until key repeat"
-defaults write NSGlobalDomain InitialKeyRepeat -int 12
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 echo ""
 echo "Use f1-f12 as standard function keys"
