@@ -18,6 +18,13 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
 fi
 
 echo ""
+echo "Disable display from automatically adjusting brightness? (y/n)"
+read -r response
+if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
+  sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Display Enabled" -bool false
+fi
+
+echo ""
 echo "Enabling tap to click"
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 sudo defaults -currentHost write -globalDomain com.apple.mouse.tapBehavior -int 1
