@@ -9,8 +9,8 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
-# set colorschem
-open "${DIR}/base16-iterm2/base16-monokai.dark.256.itermcolors"
-
 defaults write com.googlecode.iterm2 "PrefsCustomFolder" -string "${DIR}"
 defaults write com.googlecode.iterm2 "LoadPrefsFromCustomFolder" -bool true
+
+# set colorschem
+open "${DIR}/base16-iterm2/base16-monokai.dark.256.itermcolors"
