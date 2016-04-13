@@ -11,6 +11,3 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 defaults write com.googlecode.iterm2 "PrefsCustomFolder" -string "${DIR}"
 defaults write com.googlecode.iterm2 "LoadPrefsFromCustomFolder" -bool true
-
-# set colorschem
-open "${DIR}/base16-iterm2/base16-monokai.dark.256.itermcolors"
