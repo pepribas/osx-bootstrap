@@ -17,12 +17,14 @@ chsh -s $(which zsh)
 
 brew install ack
 brew install htop
+brew install fasd
 
 brew install findutils
 
 brew install git
 brew install python
 
+brew install vim
 brew install macvim
 brew linkapps macvim
 ```
